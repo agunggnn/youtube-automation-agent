@@ -1,43 +1,55 @@
 # Character Bible — Roblox Horror Myth Lab
 
-## Identity lock
+## Brand direction: premium Roblox avatar, not an ordinary starter skin
 
-- Character ID: RHM_INVESTIGATOR_01
-- Role: faceless-channel investigator / player avatar
-- Style: Roblox-inspired blocky 3D avatar, cinematic horror lighting
-- Personality: curious, careful, brave but not reckless, analytical
+**Character ID:** RHM_INVESTIGATOR_01  
+**Role:** signature investigator/player avatar for the channel  
+**Visual goal:** expensive, collectible, instantly recognizable Roblox-style skin with layered accessories and strong silhouette. Treat this as a custom original design inspired by premium Roblox avatar styling—not a claim that every item exists in the Roblox catalog.
 
-## Fixed design — do not drift
+## Master look — canonical identity
 
-- Head: square block head, simple face; restrained expressions.
-- Hair: messy black stylized hair, swept fringe with three recognizable pointed tufts.
-- Top: black zip hoodie, white zipper and two white drawstrings, charcoal cuffs.
-- Bottom: dark charcoal straight-leg pants.
-- Shoes: black-and-white chunky sneakers.
-- Prop: compact matte dark-gray flashlight with warm-white beam.
-- Palette: near-black #151820; charcoal #303642; white #F2F4F7; cool blue #3CA6FF; amber #FFB547.
-- Proportions: Roblox-like block head, square torso and simple block limbs; never realistic human anatomy.
+- **Silhouette:** Roblox block proportions, square head, compact torso, clear chunky hands/feet. Never realistic human anatomy.
+- **Hair:** black layered messy hair, swept fringe, three distinct front tufts and subtle blue edge highlights. Hair silhouette is a key identity anchor.
+- **Head accessory:** small silver-blue floating crown/halo with three prongs; keep its shape, angle and size fixed.
+- **Face:** expressive but simple stylized Roblox face; cool blue eye accents. Avoid changing face design between shots.
+- **Outerwear:** premium black techwear hoodie/jacket, white zipper and drawstrings, blue piping, layered shoulder panels, small abstract silver emblem. Do not use real brand logos.
+- **Accessories:** asymmetrical utility straps, compact black backpack with a cyan-lit rectangular core, small blue shoulder companion/pet (optional only if it can be kept identical), dark fingerless gloves.
+- **Bottom:** black/charcoal cargo pants with a single blue strap and restrained silver hardware.
+- **Shoes:** chunky black-and-white high-top sneakers with a small cyan accent.
+- **Signature prop:** futuristic cyan lantern/flashlight with a dark metal body. Use the same model throughout.
+- **Palette:** deep black #10131B, graphite #252C39, electric blue #1677FF, ice blue #8DEBFF, silver #C8D4E4, white #F4F7FC. Horror danger can use red lighting in the environment, but do not recolor the avatar's core accessories.
 
-## Optional threat silhouette
+## Outfit variants — same character, not new identities
 
-A generic shadow figure with two dim red eye lights, no recognizable franchise costume and no gore. It is a background threat, not a second protagonist.
+Use these only for special episodes or chapters. The **master look above is the default**.
 
-## What may change
+1. **Explorer:** master black/blue techwear, cyan lantern, backpack. Default for myths and exploration.
+2. **Casual:** same hair, face, crown, shoes and silhouette; simplified black/white jacket. Use for reaction, ranking and comparison videos.
+3. **Red Alert:** master outfit under red warning lighting, plus a removable red glow effect. Do not change hair/outfit materials.
+4. **Detective:** master outfit with a short dark detective coat layered over it; same hair/crown/face/shoes.
+5. **Future Tech:** master outfit with extra cyan-lit panels. Do not replace core silhouette.
+6. **Golden Event:** master outfit with gold lighting and a gold material overlay on the crown only; use for milestone/special videos, not as the everyday model.
 
-Pose, hand position, flashlight direction, head angle, expression, camera distance and lighting.
+Avoid changing skins just to make every shot different. Variation should come from camera, expression, lighting, environment, props and story beat.
 
-## What must never change
+## Hard continuity rules
 
-Hair silhouette/color, hoodie design/color, white drawstrings and zipper, pants, shoes, body proportions, and core palette.
+**Never change:** character ID, head/body proportions, face design, hair silhouette, crown shape, jacket base design, signature cyan lantern, pants silhouette, shoe design, or core palette.
 
-## Reference usage
+**May change:** pose, camera angle, facial expression within the same face style, flashlight angle, environment, rim light, and temporary overlay effects.
 
-![Character turnaround reference](assets/character-reference.svg)
+**Do not:** randomly add/remove accessories; swap hair color; change crown shape; add extra limbs/fingers; alter backpack shape; put text/logos on clothes; use another character reference as the main avatar.
 
-Append this to every generation prompt:
+## Reference sheet
 
-“Use the supplied RHM_INVESTIGATOR_01 character reference. Preserve the exact same messy black hair silhouette, black zip hoodie with white drawstrings and zipper, charcoal pants, black-and-white sneakers, square Roblox proportions, and flashlight. Change only pose, camera angle, expression, and lighting. Do not redesign the character.”
+![Character reference sheet](assets/character-reference.svg)
+
+The SVG is a written/design reference, not a production-quality 3D model. For the strongest visual consistency, generate one clean master turnaround, approve it, save it as `assets/character-reference.png`, and attach that exact image as a reference to every subsequent generation. Do not rely on a text prompt alone.
+
+## Reusable character lock prompt
+
+“Use the attached master reference for RHM_INVESTIGATOR_01. Preserve the same Roblox block proportions, square head, messy black swept fringe with three distinct front tufts, small silver-blue three-prong floating crown, cool-blue face accents, premium black techwear hoodie/jacket with white zipper/drawstrings and blue piping, layered shoulder panels, asymmetrical utility straps, compact black backpack with cyan-lit core, charcoal cargo pants, black-and-white high-top sneakers, and the exact same cyan lantern. No redesign. Change only pose, expression, camera, environment, and lighting. Maintain the same face, silhouette, materials, accessories, and proportions.”
 
 ## Negative prompt
 
-Different hair color or hairstyle; colored hoodie; missing white drawstrings; different shoes; realistic human proportions; detailed skin pores; extra fingers or limbs; inconsistent avatar scale; logos; weapons; gore; copyrighted game characters; UI text baked into image; fake gameplay screenshots; fabricated evidence of game mechanics.
+Starter/default plain avatar; generic no-accessory character; different hairstyle or hair color; missing crown; different crown geometry; changed face; colored hoodie; missing drawstrings; random new accessories; missing backpack; changed lantern; different shoes; realistic human proportions; inconsistent scale; extra fingers/limbs; warped hands; brand logos; embedded text; gore; copyrighted characters; fabricated game UI; false gameplay evidence.
