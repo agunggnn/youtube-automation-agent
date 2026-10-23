@@ -43,6 +43,7 @@ Create original characters and original worlds. Do not imitate protected charact
 - **Story:** not yet approved; see [Episode 001](episode-001.md)
 - **Character concepts:** Mimi the bunny and Pip the kitten; preliminary descriptions only, not generated assets
 - **Pipeline compatibility:** see [Production Compatibility](production-compatibility.md)
+- **Agent prompts / fallback:** see [Claude and Antigravity Prompt Pack](claude-antigravity-prompts.md)
 
 ## Approval gates
 
